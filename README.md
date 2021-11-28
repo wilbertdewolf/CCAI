@@ -1,3 +1,5 @@
+![cimsolutions - LinkedIn persoonlijke profiel banner](https://user-images.githubusercontent.com/63059377/143780859-b786a79a-fe4d-4aa4-aab0-67fbdda546f9.jpg)
+
 # CCAI
 CIMSOLUTIONS Conversational Artificial Intelligence repository
 
