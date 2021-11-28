@@ -10,23 +10,27 @@ CIMSOLUTIONS Conversational Artificial Intelligence repository
 ￼
 - Open Archi en navigeer naar 
 ![Pasted Graphic 22](https://user-images.githubusercontent.com/63059377/143779893-44a43124-e352-4040-964a-25d9fa0b6197.png)
-Installeer hier het *.archiplugin-bestand
+- Installeer hier het *.archiplugin bestand
+
 2. (Enkel voor de eigenaar van het github-account) Maak een ssh-keypair aan:
 ￼
 - open de terminal.
 - type het volgende commando: ssh-keygen -t rsa -b 4096 -m PEM -C “wilbertdewolf@yahoo.com”
 - filename := id_rsa
-- de passphrase := <opvragen bij de github-eigenaar>
+- de passphrase := opvragen bij de github-eigenaar
 - Als je een mac hebt: dan moet je in folder ~/.ssh/config het volgende toevoegen:
 ![Pasted Graphic 9](https://user-images.githubusercontent.com/63059377/143779953-c5942ee6-c4cb-4f5d-a1d2-e9838066d9ee.png)
-3. Voeg de ssh-private-key id_rsa toe aan je mac-ssh-process. Kijk of die ook draait:
+3. Voeg de ssh-private-key id_rsa toe aan je mac-ssh-process. 
+- Kijk of die ook draait:
 ￼
 ![Pasted Graphic 10](https://user-images.githubusercontent.com/63059377/143779974-3ded6b68-fbeb-4246-bf0c-e6d1eab4ab6e.png)
-bij mij draait hij onder pid 1932 
-Nu toevoegen:
+- bij mij draait hij onder pid 1932 
+- Nu toevoegen:
 ![Pasted Graphic 11](https://user-images.githubusercontent.com/63059377/143779979-98e431cd-1f94-47fb-8a09-7327430587f5.png)
- ￼4. kopieer de ssh-public-key id_rsa.pub naar clipboard:
+ ￼
+4. kopieer de ssh-public-key id_rsa.pub naar clipboard:
 ![Pasted Graphic 12](https://user-images.githubusercontent.com/63059377/143780027-7fcbc903-3156-40d7-b8ea-14327e168ba4.png)
+
 5. Maak in Github een nieuwe ssh-key aan en “paste” clipboard
 - Ga naar Settings
 ![Pasted Graphic 13](https://user-images.githubusercontent.com/63059377/143780052-a34ce9a8-db96-47c3-a0bd-44a41896f2b6.png)
