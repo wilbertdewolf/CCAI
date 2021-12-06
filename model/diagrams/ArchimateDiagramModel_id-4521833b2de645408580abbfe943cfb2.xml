@@ -17,7 +17,28 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-d5ead88e5d58408faafb4388d608e9e2">
+      id="id-d5ead88e5d58408faafb4388d608e9e2"
+      targetConnections="id-df7ab0d691384e25a8a9c6053bb34e45">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-df7ab0d691384e25a8a9c6053bb34e45"
+        source="id-d5ead88e5d58408faafb4388d608e9e2"
+        target="id-d5ead88e5d58408faafb4388d608e9e2">
+      <bendpoints
+          startY="60"
+          endY="60"/>
+      <bendpoints
+          startX="100"
+          startY="60"
+          endX="100"
+          endY="60"/>
+      <bendpoints
+          startX="100"
+          endX="100"/>
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-e3c06f6c1ced4cddb1942c28ce3b4275.xml#id-e3c06f6c1ced4cddb1942c28ce3b4275"/>
+    </sourceConnections>
     <bounds
         x="180"
         y="60"
